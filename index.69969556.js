@@ -1,0 +1,3 @@
+function n(n,e){return new Promise(function(t){n.addEventListener(e,function(){t("It was ".concat(e)+" on the element: ".concat(n.nodeName,", id: ").concat(n.id,"."))})})}var e=function(n){document.querySelector("form").insertAdjacentHTML("afterbegin",'\n    <div class="message">\n      '.concat(n,"\n    </div>\n  "))},t=document.getElementById("login"),c=document.getElementById("password"),i=document.getElementById("submit");n(t,"click").then(e),n(c,"click").then(e),n(i,"click").then(e),n(t,"input").then(e),n(c,"input").then(e),n(t,"blur").then(e),n(c,"blur").then(e),n(i,"blur").then(e);//# sourceMappingURL=index.69969556.js.map
+
+//# sourceMappingURL=index.69969556.js.map
